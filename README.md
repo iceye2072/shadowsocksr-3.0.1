@@ -13,25 +13,25 @@ Server
 Debian / Ubuntu:
 
     apt-get install git
-    git clone https://github.com/shadowsocksr/shadowsocksr.git
+    git clone https://github.com/iceye2072/shadowsocksr-3.0.1.git
 
 CentOS:
 
     yum install git
-    git clone https://github.com/shadowsocksr/shadowsocksr.git
+    git clone https://github.com/iceye2072/shadowsocksr-3.0.1.git
 
 Windows:
 
-    git clone https://github.com/shadowsocksr/shadowsocksr.git
+    git clone https://github.com/iceye2072/shadowsocksr-3.0.1.git
 
 ### Usage for single user on linux platform
 
-If you clone it into "~/shadowsocksr"  
-move to "~/shadowsocksr", then run:
+If you clone it into "~/shadowsocksr-3.0.1" 
+move to "~/shadowsocksr-3.0.1", then run:
 
     bash initcfg.sh
 
-move to "~/shadowsocksr/shadowsocks", then run:
+move to "~/shadowsocksr-3.0.1/shadowsocks", then run:
 
     python server.py -p 443 -k password -m aes-128-cfb -O auth_aes128_md5_compatible -o tls1.2_ticket_auth_compatible
 
